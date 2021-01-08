@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 1, Errors: 0, Skipped: 6, Time elapsed: 0.43 sec <<< FAILURE! - in TestSuite
+startTest(com.cw.test.TestCase)  Time elapsed: 0.334 sec  <<< FAILURE!
+io.appium.java_client.service.local.InvalidServerInstanceException: NodeJS is either not installed or its executable not present in PATH
+

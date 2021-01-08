@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite"> <!-- parallel="true" 并行 -->>
+	useDefaultListeners="false"
+	<listenners>
+	<lister class-name="org.uncommons.reportng.HTMLReporter" />
+	<lister class-name="org.uncommons.reportng.JUnitReporter" />
+	</listenners>
+	
+	<test name = "Test">
+ 		<classes>
+  			<class name = "com.cw.test.TestCase" />
+ 		</classes>
+	</test>
+</suite>
